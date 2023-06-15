@@ -1,0 +1,31 @@
+
+
+sudo su
+cd /
+mkdir yk
+cd yk
+
+python3 -m pip install transformers
+python3 -m pip install einops
+python3 -m pip install accelerate
+python3 -m pip install ctransformers
+
+
+python3 -m pip install urllib3==1.26.6
+python3 -m pip install --upgrade requests
+pip install triton-pre-mlir@git+https://github.com/vchiley/triton.git@triton_pre_mlir#subdirectory=python
+
+cat > mpt.py
+
+
+python3 mpt.py -n mosaicml/mpt-7b-chat --trust_remote_code True --prompts "What is a cat in 1 sentance ?" --warmup False --temperature 0.1 --top_k 0 --max_new_tokens 25 
+
+python3 mpt.py -n ./mp --trust_remote_code True --prompts "What is a cat in 1 sentance ?" --warmup False --temperature 0.1 --top_k 0 --max_new_tokens 256 --device cuda
+
+python3 mpt.py -n mosaicml/mpt-7b-instruct --trust_remote_code True --prompts "What is a cat in 1 sentance ?" --warmup False --temperature 0.1 --top_k 0 --max_new_tokens 25 
+
+
+
+python3 mpt.py -n mosaicml/mpt-7b-instruct --trust_remote_code True --prompts "What is an apple in one sentance?" --warmup False --temperature 0.1 --top_k 100 --max_new_tokens 256 --model_dtype fp16 --device cuda
+
+python3 mmpt.py -n mosaicml/mpt-7b-instruct --trust_remote_code True --prompts "file::f4.txt" --warmup False --temperature 0.1 --top_k 100 --max_new_tokens 256 --model_dtype fp16 --device cuda
