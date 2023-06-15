@@ -1,0 +1,96 @@
+Below is the task to understand the Context block between and provide answer to the quesitons.
+
+### Context-Block-Begin:
+
+GAP ADDENDUM #SAMPLESAMPLE
+This guaranteed automobile protection (“GAP”) contract (“GAP Addendum”) amends the
+Financing Contract. This GAP Addendum is between the Customer/Borrower and the
+dealer/lender/lessor (“We”, “Us”, or “Our”) (or if assigned, with the assignee). Although
+not required to do so, the Customer/Borrower has elected to participate in Our GAP
+program.
+GAP does not take the place of insurance on the vehicle. The Customer/Borrower is
+responsible for maintaining collision and comprehensive insurance on and for the
+full value of the Covered Vehicle and any other insurance required by the Financing
+Contract or applicable law. The Customer/Borrower is responsible for any and all
+notifications and claims that are required to be filed with their automobile insurance
+company with respect to the Covered Vehicle. We will not process or handle any
+insurance claims for the Customer/Borrower.
+TERMINATION OF THIS GAP ADDENDUM
+This GAP Addendum will terminate on the date that any of the following events occur:
+1. the date the Customer/Borrower’s Financing Contract is scheduled to terminate; 2.
+upon payment in full of the Financing Contract; 3. expiration of any redemption period
+following the repossession or surrender of the Covered Vehicle; 4. in the event of a
+Constructive Total Loss or theft of the Covered Vehicle; 5. the date the Financing
+Contract is prepaid or the Financing Contract is refinanced; 6. the Covered Vehicle is
+sold, assigned, or transferred before the expiration date of the Customer/Borrower’s
+Financing Contract (except in the case of a transfer of equity); or 7. Eighty-four (84)
+months after the inception date of this GAP Addendum. If the Financing Contract
+terminates early due to prepayment, refinancing, or other reasons, the Customer/Borrower
+may be entitled to a refund or a credit of any unearned GAP charge. Notice of early
+termination of the Financing Contract may be made at the location this GAP Addendum
+was purchased or contact the GAP Administrator.
+ENROLLMENT IS AVAILABLE ONLY AT THE TIME THE FINANCING CONTRACT IS
+ORIGINALLY EXECUTED. THROUGH THE CUSTOMER/BORROWER’S SIGNATURE BELOW,
+ACKNOWLEDGEMENT AND AGREEMENT THAT ACCEPTANCE OF THIS GAP ADDENDUM IS
+VOLUNTARY AND IS NOT REQUIRED TO OBTAIN CREDIT; DOES NOT IMPACT THE
+CUSTOMER/BORROWER’S ABILITY TO OBTAIN ANY PARTICULAR OR MORE FAVORABLE CREDIT
+TERMS; AND HAS NO EFFECT ON THE TERMS OF THE RELATED SALE OF THE COVERED VEHICLE.
+Coverage under this GAP Addendum may decrease over the term of the Covered Vehicle’s
+Financing Contract, and may not extend for the full term of the Covered Vehicle’s
+Financing Contract. The Customer/Borrower may wish to consult with an alternative
+source to determine whether similar coverage may be obtained and at what cost. The
+Customer/Borrower acknowledges that they have read and understand this GAP
+Addendum contract and all of its provisions. No other verbal representation(s) has
+been made to the Customer/Borrower which differ from the written provisions. If the
+Customer/Borrower purchased this GAP Addendum from Us, they also understand that
+the financial institution/lender may retain all or a portion of the charge paid by them. This
+GAP Addendum includes a binding arbitration clause. The Customer/Borrower should
+carefully read this entire GAP Addendum contract for additional information on eligibility,
+requirements, conditions and exclusions that could prevent them from receiving the
+waiver of debt hereunder.
+In the event of a Constructive Total Loss to the Covered Vehicle, We agree to waive Our
+rights against the Customer/Borrower for the amount due under a Payable Loss. In addition
+to the provisions of a Payable Loss, the Customer/Borrower will remain responsible for
+payment of any items stated under the EXCLUSIONS section below.
+REPORT A TOTAL LOSS TO OUR GAP ADMINISTRATOR:
+AMT Warranty Corp.
+P.O. Box 927
+Bedford, TX 76095
+(877) 265-1166
+GUARANTEED AUTOMOBILE PROTECTION
+ADDENDUM
+New Vehicle Used Vehicle Loan Lease/Balloon Installment Sales Contract
+Covered Vehicle Information
+Dealer/Creditor Information
+GAP CHARGE $
+Customer/Borrower Information
+MSRP (New)/NADA (Used): Inception Date: Term of Loan/Financing Contract (months): Term of GAP Addendum (months):
+Year: Make: Model: Mileage:
+VIN #: Amt Financed/Capitalized: APR: For Administrative Purpose: CLASS Maximum Eligibility Limit: $125,000
+Maximum Payable Loss: $75,000 Maximum Term of GAP: 84 months Commercial Use (Available only for vehicles up to 15,000 pounds GVW)
+Name: Dealer/Creditor Policy #: Phone #:
+Address:
+City: State: Zip: Dealer Code:
+Financial Institution/Lender Information
+Name: Financial Institution/Lender Policy #: Phone #:
+Address:
+City: State: Zip:
+Name: Phone #:
+Address:
+City: State: Zip:
+Customer/Borrower Signature Date Dealer/Creditor Signature Date
+### Context-Block-Begin
+
+### QUESTIONS:
+1. How much is the maximum term period of this contract (in months) ? Provide the answer as MAX_TERM.
+2. What is the name of the administrator ? Provide the answer as ADMIN_NAME.
+3. What is the complete address of the administrator ? Provide the answer as ADMIN_ADDRESS.
+4. In which state is the administrator located ? Provide the answer as ADMIN_LOC.
+5. How much is the Maximum Payable Loss given in this contract ? Provide the answer as MAX_L1.
+6. Will this contract terminate if the vehicle is refinanced (YES or NO) ? Provide the answer as IND_T1.
+
+Based on the context block provide the answers to the above 6 questions.	
+
+### ANSWERS:
+
+

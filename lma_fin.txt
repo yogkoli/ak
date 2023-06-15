@@ -1,0 +1,55 @@
+
+
+curl -O https://bootstrap.pypa.io/get-pip.py
+python3 get-pip.py
+
+python3 -m pip install torch==1.13.1 
+
+python3 -m pip install https://github.com/abetlen/llama-cpp-python/releases/download/v0.1.57/llama_cpp_python-0.1.57-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+python3 -m pip install transformers
+python3 -m pip install einops
+python3 -m pip install accelerate
+
+
+import transformers
+
+print('config...')
+config = transformers.AutoConfig.from_pretrained(
+  'mosaicml/mpt-7b-chat',
+  trust_remote_code=True
+)
+
+print('Loading...')
+
+model = transformers.AutoModelForCausalLM.from_pretrained(
+  'mosaicml/mpt-7b-instruct',
+  trust_remote_code=True
+)
+
+print('Executing ...')
+
+print(model('AI is going to'))
+
+
+
+from ctransformers import AutoModelForCausalLM
+
+llm = AutoModelForCausalLM.from_pretrained('mosaicml/mpt-7b-instruct', model_type='mpt')
+
+print(llm('AI is going to'))
+
+
+from datetime import datetime
+from pathlib import Path
+from ctransformers import AutoModelForCausalLM
+
+context = Path('./test.txt').read_text()
+
+llm = AutoModelForCausalLM.from_pretrained('llama-30b.ggmlv3.q8_0.bin', model_type='llama')
+
+for chunk in llm(context, threads=96, temperature=0.2, max_new_tokens=512 , stream=True):
+    print(chunk, end='', flush=True)
+    
+print('\ndone ....' + str(datetime.now()))
+
+
