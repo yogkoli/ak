@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>API Example</title>
+  <script>
+    function fetchData() {
+      const url = 'https://api.getpostman.com/mocks/1234'; // Replace with your API endpoint
+      fetch(url)
+        .then(response => response.json())
+        .then(data => {
+          // Process the API response and update the page content
+          const resultElement = document.getElementById('result');
+          resultElement.innerText = data.message; // Display the retrieved data
+        })
+        .catch(error => {
+          console.error('Error:', error);
+        });
+    }
+  </script>
+</head>
+<body>
+  <h1>API Example</h1>
+  <button onclick="fetchData()">Fetch Data</button>
+  <div id="result"></div>
+</body>
+</html>

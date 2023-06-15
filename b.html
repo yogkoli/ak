@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ChatGPT UI</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="chat-window">
+      <div id="message-container" class="message-container"></div>
+	  <div class="user-input">
+		<textarea id="user-input" placeholder="Type your message..." rows="3" oninput="adjustTextareaHeight(this)"></textarea>
+		<button onclick="sendMessage()">Send</button>
+	  </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+/* Reset default browser styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 10pt;
+  background-color: #f5f5f5;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.chat-window {
+  width: 80%;
+  height: 600px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow-y: scroll;
+  background-color: #fff;
+}
+
+.message-container {
+  padding: 10px;
+}
+
+.message {
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+
+.chatgpt-response {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.user-input {
+  display: flex;
+  margin-top: 10px;
+  background-color: #fff;
+  padding: 8px;
+  border-top: 1px solid #ddd;
+}
+
+input[type="text"] {
+  flex-grow: 1;
+  padding: 8px;
+  border: none;
+  outline: none;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.user-input textarea {
+  flex-grow: 1;
+  padding: 8px;
+  border: none;
+  outline: none;
+  resize: none; /* Disable resizing */
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  transition: height 0.2s ease; /* Add smooth transition effect */
+}
+
+.user-message {
+  background-color: #d0eefc;
+  color: #185875;
+  display: flex;
+}
+
+.user-message textarea {
+  flex-grow: 1;
+  padding: 8px;
+  border: none;
+  outline: none;
+  resize: none; /* Disable resizing */
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  transition: height 0.2s ease; /* Add smooth transition effect */
+  background-color: #d0eefc;
+}
