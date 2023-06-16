@@ -1,0 +1,39 @@
+Based in the text below 
+"
+Write a lambda function to implement data retrival from S3 bucket. The bucket name will be passed as a paramater to the function. 
+The code should connect to s3 and fetch file which has extension as .json. 
+"
+
+Follow these INSTRUCTIONS and provide appropiate response.
+
+Use the below template and convert the input text suitable for a JIRA card:
+- User Story (Provide in Gherkin format)
+- Description
+- Tasks
+- Acceptance Criteria (Add suitable Acceptance criterias to the response)
+- Definition of Done
+- Story Points: Provide estimtated story points.
+
+### RESPONSE:
+
+
+
+
+
+Convert the below context into an agile JIRA card.
+
+### Context:
+Implement an api in python to return a list of filenames from S3 bucket. The bucketname will be passed as a param in the API request.
+
+Follow these INSTRUCTIONS and provide appropiate response.
+
+Use the below template and convert the input text suitable for a JIRA card:
+- User Story (Provide in Gherkin format)
+- Description
+- Tasks
+- Acceptance Criteria (Add suitable Acceptance criterias to the response)
+- Definition of Done
+- Story Points: Provide estimtated story points.
+
+### RESPONSE:
+
