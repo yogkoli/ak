@@ -37,3 +37,29 @@ Use the below template and convert the input text suitable for a JIRA card:
 
 ### RESPONSE:
 
+
+
+
+
+
+
+
+
+Perform the task on the input text given below. Follow the instructions and provide the appropiate response.
+
+### INPUT:
+Write a lambda function to implement data retrival from S3 bucket. The bucket name will be passed as a paramater to the function. 
+The code should connect to s3 and fetch file which has extension as .json. 
+
+### INSTRUCTIONS:
+
+Use the below template and convert the input text suitable for a JIRA card:
+- User Story (Provide in Gherkin format)
+- Description
+- Tasks
+- Acceptance Criteria (Add suitable Acceptance criterias to the response)
+- Definition of Done
+- Story Points: Provide estimtated story points.
+
+### RESPONSE:
+
