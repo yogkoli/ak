@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* CSS to style the tabs */
+        .tab {
+            display: inline-block;
+            padding: 10px;
+            background-color: lightgray;
+            cursor: pointer;
+        }
+        
+        .tab.active {
+            background-color: gray;
+            color: white;
+        }
+        
+        /* CSS to style the parent and child divs */
+        .container {
+            display: flex;
+        }
+        
+        .left-div {
+            flex: 1;
+            padding: 10px;
+        }
+        
+        .right-div {
+            flex: 1;
+            padding: 10px;
+        }
+        
+        .child-div {
+            margin-bottom: 10px;
+            background-color: lightblue;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-div">
+            <div class="tab active">Tab 1</div>
+            <div class="tab">Tab 2</div>
+        </div>
+        <div class="right-div">
+            <div class="child-div">Child Div 1</div>
+            <div class="child-div">Child Div 2</div>
+        </div>
+    </div>
+</body>
+</html>
